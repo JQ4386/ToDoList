@@ -1,0 +1,49 @@
+.task-list {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .table {
+    width: 90vw; /* Use 90% of viewport width */
+    margin: 0 auto; /* Center the table horizontally */
+    table-layout: fixed; /* Prevent table from expanding based on content */
+  }
+  
+  .table-row {
+    display: flex;
+  }
+  
+  .task-checkbox,
+  .task-text,
+  .task-delete {
+    flex: 1;
+    padding: 10px;
+    white-space: nowrap; /* Prevent text from wrapping in columns */
+    overflow: hidden;
+    overflow-wrap: break-word; /* Add overflow-wrap property */
+    text-overflow: ellipsis; /* Show ellipsis if text overflows */
+  }
+  
+  .task-text {
+    flex-basis: 70%; /* Adjust the percentage as needed */
+    white-space: normal; /* Allow text to wrap to new lines */
+  }
+  
+  .task-checkbox {
+    text-align: center;
+  }
+  
+  .task-delete {
+    text-align: right;
+    overflow: visible; /* Add overflow property */
+  }
+  
+  .btn {
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    max-width: 100%; /* Add max-width property */
+    overflow: hidden; /* Add overflow property */
+    text-overflow: ellipsis; /* Show ellipsis if button text overflows */
+  }
+  

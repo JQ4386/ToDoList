@@ -1,0 +1,19 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+  }
+  
+  .container {
+    max-width: 400px;
+  }
+  
+  input.form-control {
+    color: #000000;
+  }
+  
+  .btn-primary {
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #ffffff;
+  }
+  
